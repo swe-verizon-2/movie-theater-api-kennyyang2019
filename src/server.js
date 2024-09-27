@@ -4,5 +4,5 @@ const port = 3000;
 
 app.listen(port, async() => {
 	await db.sync();
-	console.log(`Listening at http://localhost:${port}/musicians`);
+	console.log(`Listening at http://localhost:${port}/`);
 });
